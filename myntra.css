@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid gray;
+}
+.image1 {
+  background-image: url("./myntra.image.png");
+  width: 50px;
+  height: 60px;
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  background-position: -290px 568px;
+}
+.list1 ul {
+  display: flex;
+  list-style: none;
+  padding: 30px;
+  position: absolute;
+  left: 100px;
+  top: 5px;
+}
+.list1 ul li a {
+  padding-left: 20px;
+  text-decoration: none;
+  color: black;
+}
+.searchbox {
+  width: 50px;
+  height: 40px;
+  position: absolute;
+  background-color: rgb(245, 244, 243);
+  left: 750px;
+  top: 20px;
+}
+.search input {
+  width: 500px;
+  height: 40px;
+  position: relative;
+  background-color: rgb(245, 244, 243);
+  left: 800px;
+  top: 20px;
+
+  border: 0 white;
+}
+.searchbar {
+  position: absolute;
+  top: 35px;
+  left: 770px;
+}
+.search input {
+  text-align: left;
+  border-color: blanchedalmond;
+}
+.profile {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  left: 1450px;
+  bottom: 30px;
+}
+.profile ul {
+  position: absolute;
+  right: 10px;
+  display: flex;
+  padding: 30px;
+}
+.profile ul li {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.mainimage {
+  overflow: hidden;
+  margin-top: 20px;
+}
+.mainimage figure {
+  width: 500%;
+  animation: 20s slide linear infinite;
+  position: relative;
+  margin: 0;
+  left: 0;
+}
+.mainimage figure img {
+  width: 20%;
+  float: left;
+}
+@keyframes slide {
+  0% {
+    left: o;
+  }
+  20% {
+    left: 0;
+  }
+  20% {
+    left: -100%;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+.list1 ul li a:hover {
+  background-color: gainsboro;
+  padding: 10px;
+  padding-left: 20px;
+  display: block;
+}
+.profile ul li a {
+  text-decoration: none;
+}
